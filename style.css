@@ -17,24 +17,24 @@ body {
 .business-card {
     display: flex;
     width: 100%;
-    max-width: 780px;
-    min-height: 390px;
+    max-width: 620px;
+    min-height: 320px;
     background: white;
-    border-radius: 18px;
+    border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 15px 40px rgba(20, 43, 77, 0.18);
 }
 
 .card-info {
     flex: 1;
-    padding: 38px 34px;
+    padding: 26px 24px;
 }
 
 .card-info h1 {
     color: #142b4d;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.2;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .card-info h1 span {
@@ -43,17 +43,17 @@ body {
 
 .job-title {
     color: #667085;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.3px;
 }
 
 .line {
-    width: 55px;
-    height: 4px;
+    width: 45px;
+    height: 3px;
     background: #1677ff;
     border-radius: 2px;
-    margin: 20px 0 22px;
+    margin: 14px 0 16px;
 }
 
 .contact-list {
@@ -63,15 +63,15 @@ body {
 .contact {
     display: flex;
     align-items: center;
-    gap: 9px;
-    margin: 10px 0;
+    gap: 8px;
+    margin: 7px 0;
     color: #344054;
-    font-size: 14px;
+    font-size: 12px;
     overflow-wrap: anywhere;
 }
 
 .contact .icon {
-    flex: 0 0 18px;
+    flex: 0 0 16px;
     text-align: center;
 }
 
@@ -88,22 +88,22 @@ body {
 }
 
 .expertise {
-    margin-top: 26px;
+    margin-top: 16px;
 }
 
 .expertise h2 {
     color: #667085;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
-    margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
 }
 
 .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 7px;
+    gap: 5px;
     list-style: none;
 }
 
@@ -111,26 +111,26 @@ body {
     background: #eef4ff;
     border: 1px solid #d7e6ff;
     color: #142b4d;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 1.4;
-    padding: 5px 10px;
+    padding: 4px 8px;
     border-radius: 999px;
 }
 
 .social-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 24px;
+    gap: 6px;
+    margin-top: 16px;
 }
 
 .social-links a {
     border: 1px solid #d0d5dd;
-    border-radius: 8px;
+    border-radius: 6px;
     color: #344054;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
-    padding: 8px 13px;
+    padding: 6px 10px;
     text-decoration: none;
     transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
@@ -143,7 +143,7 @@ body {
 }
 
 .card-brand {
-    width: 230px;
+    width: 180px;
     flex-shrink: 0;
     background: #142b4d;
     color: white;
@@ -151,91 +151,120 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 28px 20px;
+    padding: 20px 14px;
     text-align: center;
 }
 
 .logo {
-    width: 74px;
-    height: 74px;
+    width: 58px;
+    height: 58px;
     border: 2px solid #1677ff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 .card-brand h2 {
-    font-size: 15px;
-    margin-top: 16px;
-    letter-spacing: 1px;
+    font-size: 11px;
+    margin-top: 10px;
+    letter-spacing: 0.8px;
 }
 
 .tagline {
-    font-size: 10px;
+    font-size: 9px;
     color: #a9caff;
-    line-height: 1.6;
-    margin-top: 8px;
-    letter-spacing: 0.5px;
+    line-height: 1.5;
+    margin-top: 6px;
+    letter-spacing: 0.4px;
 }
 
 .qr-block {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 22px;
+    margin-top: 12px;
 }
 
 .qr-block img {
     display: block;
+    width: 88px;
+    height: 88px;
     background: white;
-    padding: 6px;
-    border-radius: 8px;
+    padding: 4px;
+    border-radius: 6px;
 }
 
 .qr-block span {
     color: #a9caff;
-    font-size: 10px;
-    margin-top: 7px;
+    font-size: 9px;
+    margin-top: 5px;
 }
 
-.vcard-button {
-    display: inline-block;
-    margin-top: 16px;
+.download-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.download-button {
+    display: block;
     background: #1677ff;
     color: white;
-    border-radius: 8px;
-    font-size: 12px;
+    border-radius: 6px;
+    font-size: 10px;
     font-weight: 600;
-    padding: 9px 15px;
+    padding: 7px 8px;
     text-decoration: none;
     transition: background 0.2s ease;
 }
 
-.vcard-button:hover,
-.vcard-button:focus-visible {
+.download-button.secondary {
+    background: transparent;
+    border: 1px solid #1677ff;
+}
+
+.download-button:hover,
+.download-button:focus-visible {
     background: #0f5fd0;
 }
 
-@media (max-width: 640px) {
+.download-button.secondary:hover,
+.download-button.secondary:focus-visible {
+    background: #1677ff;
+}
+
+@media (max-width: 560px) {
     .business-card {
         flex-direction: column;
     }
 
     .card-info {
-        padding: 28px 22px;
+        padding: 24px 20px;
     }
 
     .card-info h1 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .card-brand {
         width: 100%;
-        padding: 26px 20px;
+        padding: 20px;
+    }
+
+    .download-actions {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .download-button {
+        width: auto;
+        min-width: 120px;
     }
 }
 
